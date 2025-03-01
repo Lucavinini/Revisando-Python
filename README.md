@@ -1,2 +1,2 @@
 # Revisando-Python
-Revisando python.
+Revisando alguns conceitos de python!
