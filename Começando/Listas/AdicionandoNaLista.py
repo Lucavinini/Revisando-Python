@@ -1,11 +1,9 @@
-#
-
 
 Cardapio = ["Lasanha", "Bolo de Laranja","Suco de Maracujá" ]
 
 print(Cardapio)
 
-#Podemos implementar mais um elemento a lista por meio do método .append()
+#Podemos implementar mais um elemento no final da lista por meio do método .append()
 
 Cardapio.append("Pizza")
 

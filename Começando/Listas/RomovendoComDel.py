@@ -7,3 +7,6 @@ print(Convidados)
 del Convidados[0]
 
 print(Convidados)
+
+#O Del remove o elemento da lista, sendo impossível trabalhar com esse dado novamente
+
