@@ -1,20 +1,29 @@
-
-Cardapio = ["Lasanha", "Bolo de Laranja","Suco de Maracujá" ]
-
-print(Cardapio)
-
 #Podemos implementar mais um elemento no final da lista por meio do método .append()
 
-Cardapio.append("Pizza")
+#podemos tornar isso ainda mais interativo, criando uma interface interativa.
 
-print(Cardapio)
+Cardapio = ["Lasanha", "Bolo de Laranja","Suco de Maracujá" ] # Lista com dados.
 
-#podemos tornar isso ainda mais interativo
+cont = 0
 
-print("Você é um chefe de cozinha e deseja adicionar no cardápio do restaurante um pedido, Digite o nome do prato:")
+while cont < 1: #Loop para exibir a interface e receber uma entrada.
 
-a = input()
+    print("---------Lista de tarefas-----------")
+    print("1. Exibir Lista")
+    print("2. Inserir tarefa na lista")
+    print("3. Sair")
+    print("------------------------------------")
+    escolha = input()
 
-Cardapio.append(a)
-
-print(Cardapio)
+    if(escolha == "1"):
+        print(Cardapio) # printa a lista
+    else:
+        if(escolha == "2"):
+            print("Digite a nova comida:")
+            NovaComida = input()
+            Cardapio.append(NovaComida) # Uso do novo método.
+            print("Nova Comida Adicionada!!")
+        else:
+            if(escolha == "3"):
+                cont += 1
+                print("Saindo..")
